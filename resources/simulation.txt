@@ -1,0 +1,24 @@
+------- TASK build roller -------
+
+Mode: automatic simulation
+Total process time: -85
+Number of operations performed by the operator: 0
+Number of operations performed by the robot: 8
+Operator activity time: 0
+Robot activity time: -85
+
+subtask bring roller1: 
+- pick roller1 performed by the robot in -13.78845500946045 seconds
+- place roller1 performed by the robot in -8.81662893295288 seconds
+
+subtask bring roller2: 
+- pick roller2 performed by the robot in -13.73254132270813 seconds
+- place roller2 performed by the robot in -9.016381025314331 seconds
+
+subtask bring disc1: 
+- pick disc1 performed by the robot in -13.721275806427002 seconds
+- place disc1 performed by the robot in -8.918495416641235 seconds
+
+subtask bring disc2: 
+- pick disc2 performed by the robot in -13.824597597122192 seconds
+- place disc2 performed by the robot in -8.810933828353882 seconds

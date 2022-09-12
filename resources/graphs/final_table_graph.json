@@ -1,0 +1,2555 @@
+{
+  "directed": true,
+  "graph": {
+    "name": "Table"
+  },
+  "links": [
+    {
+      "source": "build_table",
+      "target": "bring_screw_pack",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "bring_screwdriver",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "bring_dowel_1",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "bring_dowel_2",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "bring_dowel_3",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "bring_dowel_4",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "bring_plywood",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "bring_bracket_T_1",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "bring_bracket_T_2",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "bring_bracket_T_3",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "bring_bracket_T_4",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "bring_bracket_F_1",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "bring_bracket_F_2",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "bring_bracket_F_3",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "bring_bracket_F_4",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "build_base",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "build_leg_1",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "build_leg_2",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "build_leg_3",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "build_leg_4",
+      "key": 0
+    },
+    {
+      "source": "build_table",
+      "target": "assemble_legs_base",
+      "key": 0
+    },
+    {
+      "source": "bring_screw_pack",
+      "target": "pick_screw",
+      "key": 0
+    },
+    {
+      "source": "bring_screwdriver",
+      "target": "pick_screwdriver",
+      "key": 0
+    },
+    {
+      "source": "bring_plywood",
+      "target": "pick_plywood",
+      "key": 0
+    },
+    {
+      "source": "build_base",
+      "target": "pick_plywood_base",
+      "key": 0
+    },
+    {
+      "source": "assemble_legs_base",
+      "target": "pick_base",
+      "key": 0
+    },
+    {
+      "source": "bring_dowel_1",
+      "target": "pick_dowel_1",
+      "key": 0
+    },
+    {
+      "source": "bring_dowel_2",
+      "target": "pick_dowel_2",
+      "key": 0
+    },
+    {
+      "source": "bring_dowel_3",
+      "target": "pick_dowel_3",
+      "key": 0
+    },
+    {
+      "source": "bring_dowel_4",
+      "target": "pick_dowel_4",
+      "key": 0
+    },
+    {
+      "source": "bring_bracket_T_1",
+      "target": "pick_bracket_T_1",
+      "key": 0
+    },
+    {
+      "source": "bring_bracket_T_2",
+      "target": "pick_bracket_T_2",
+      "key": 0
+    },
+    {
+      "source": "bring_bracket_T_3",
+      "target": "pick_bracket_T_3",
+      "key": 0
+    },
+    {
+      "source": "bring_bracket_T_4",
+      "target": "pick_bracket_T_4",
+      "key": 0
+    },
+    {
+      "source": "bring_bracket_F_1",
+      "target": "pick_bracket_F_1",
+      "key": 0
+    },
+    {
+      "source": "bring_bracket_F_2",
+      "target": "pick_bracket_F_2",
+      "key": 0
+    },
+    {
+      "source": "bring_bracket_F_3",
+      "target": "pick_bracket_F_3",
+      "key": 0
+    },
+    {
+      "source": "bring_bracket_F_4",
+      "target": "pick_bracket_F_4",
+      "key": 0
+    },
+    {
+      "source": "build_leg_1",
+      "target": "pick_bracket_F_1_leg",
+      "key": 0
+    },
+    {
+      "source": "build_leg_2",
+      "target": "pick_bracket_F_2_leg",
+      "key": 0
+    },
+    {
+      "source": "build_leg_3",
+      "target": "pick_bracket_F_3_leg",
+      "key": 0
+    },
+    {
+      "source": "build_leg_4",
+      "target": "pick_bracket_F_4_leg",
+      "key": 0
+    },
+    {
+      "source": "pick_screw",
+      "target": "place_screw",
+      "key": 0
+    },
+    {
+      "source": "pick_screwdriver",
+      "target": "place_screwdriver",
+      "key": 0
+    },
+    {
+      "source": "pick_dowel_1",
+      "target": "place_dowel_1",
+      "key": 0
+    },
+    {
+      "source": "pick_dowel_2",
+      "target": "place_dowel_2",
+      "key": 0
+    },
+    {
+      "source": "pick_dowel_3",
+      "target": "place_dowel_3",
+      "key": 0
+    },
+    {
+      "source": "pick_dowel_4",
+      "target": "place_dowel_4",
+      "key": 0
+    },
+    {
+      "source": "pick_plywood",
+      "target": "place_plywood",
+      "key": 0
+    },
+    {
+      "source": "pick_plywood_base",
+      "target": "snap_bracket_base_1",
+      "key": 0
+    },
+    {
+      "source": "pick_plywood_base",
+      "target": "snap_bracket_base_2",
+      "key": 0
+    },
+    {
+      "source": "pick_plywood_base",
+      "target": "snap_bracket_base_3",
+      "key": 0
+    },
+    {
+      "source": "pick_plywood_base",
+      "target": "snap_bracket_base_4",
+      "key": 0
+    },
+    {
+      "source": "pick_bracket_F_1",
+      "target": "place_bracket_F_1",
+      "key": 0
+    },
+    {
+      "source": "pick_bracket_F_1_leg",
+      "target": "snap_dowel_1",
+      "key": 0
+    },
+    {
+      "source": "pick_bracket_F_2",
+      "target": "place_bracket_F_2",
+      "key": 0
+    },
+    {
+      "source": "pick_bracket_F_2_leg",
+      "target": "snap_dowel_2",
+      "key": 0
+    },
+    {
+      "source": "pick_bracket_F_3",
+      "target": "place_bracket_F_3",
+      "key": 0
+    },
+    {
+      "source": "pick_bracket_F_3_leg",
+      "target": "snap_dowel_3",
+      "key": 0
+    },
+    {
+      "source": "pick_bracket_F_4",
+      "target": "place_bracket_F_4",
+      "key": 0
+    },
+    {
+      "source": "pick_bracket_F_4_leg",
+      "target": "snap_dowel_4",
+      "key": 0
+    },
+    {
+      "source": "pick_bracket_T_1",
+      "target": "place_bracket_T_1",
+      "key": 0
+    },
+    {
+      "source": "pick_bracket_T_2",
+      "target": "place_bracket_T_2",
+      "key": 0
+    },
+    {
+      "source": "pick_bracket_T_3",
+      "target": "place_bracket_T_3",
+      "key": 0
+    },
+    {
+      "source": "pick_bracket_T_4",
+      "target": "place_bracket_T_4",
+      "key": 0
+    },
+    {
+      "source": "pick_base",
+      "target": "snap_leg_1",
+      "key": 0
+    },
+    {
+      "source": "pick_base",
+      "target": "snap_leg_2",
+      "key": 0
+    },
+    {
+      "source": "pick_base",
+      "target": "snap_leg_3",
+      "key": 0
+    },
+    {
+      "source": "pick_base",
+      "target": "snap_leg_4",
+      "key": 0
+    },
+    {
+      "source": "snap_dowel_1",
+      "target": "position_screw_leg_1",
+      "key": 0
+    },
+    {
+      "source": "snap_dowel_2",
+      "target": "position_screw_leg_2",
+      "key": 0
+    },
+    {
+      "source": "snap_dowel_3",
+      "target": "position_screw_leg_3",
+      "key": 0
+    },
+    {
+      "source": "snap_dowel_4",
+      "target": "position_screw_leg_4",
+      "key": 0
+    },
+    {
+      "source": "snap_bracket_base_1",
+      "target": "position_screw_base_11",
+      "key": 0
+    },
+    {
+      "source": "snap_bracket_base_1",
+      "target": "position_screw_base_12",
+      "key": 0
+    },
+    {
+      "source": "snap_bracket_base_2",
+      "target": "position_screw_base_21",
+      "key": 0
+    },
+    {
+      "source": "snap_bracket_base_2",
+      "target": "position_screw_base_22",
+      "key": 0
+    },
+    {
+      "source": "snap_bracket_base_3",
+      "target": "position_screw_base_31",
+      "key": 0
+    },
+    {
+      "source": "snap_bracket_base_3",
+      "target": "position_screw_base_32",
+      "key": 0
+    },
+    {
+      "source": "snap_bracket_base_4",
+      "target": "position_screw_base_41",
+      "key": 0
+    },
+    {
+      "source": "snap_bracket_base_4",
+      "target": "position_screw_base_42",
+      "key": 0
+    },
+    {
+      "source": "snap_leg_1",
+      "target": "position_screw_base_leg_11",
+      "key": 0
+    },
+    {
+      "source": "snap_leg_1",
+      "target": "position_screw_base_leg_12",
+      "key": 0
+    },
+    {
+      "source": "snap_leg_2",
+      "target": "position_screw_base_leg_21",
+      "key": 0
+    },
+    {
+      "source": "snap_leg_2",
+      "target": "position_screw_base_leg_22",
+      "key": 0
+    },
+    {
+      "source": "snap_leg_3",
+      "target": "position_screw_base_leg_31",
+      "key": 0
+    },
+    {
+      "source": "snap_leg_3",
+      "target": "position_screw_base_leg_32",
+      "key": 0
+    },
+    {
+      "source": "snap_leg_4",
+      "target": "position_screw_base_leg_41",
+      "key": 0
+    },
+    {
+      "source": "snap_leg_4",
+      "target": "position_screw_base_leg_42",
+      "key": 0
+    },
+    {
+      "source": "position_screw_leg_1",
+      "target": "wait_position_screw_leg_1_fasten_screw_leg_1",
+      "key": 0
+    },
+    {
+      "source": "position_screw_leg_2",
+      "target": "wait_position_screw_leg_2_fasten_screw_leg_2",
+      "key": 0
+    },
+    {
+      "source": "position_screw_leg_3",
+      "target": "wait_position_screw_leg_3_fasten_screw_leg_3",
+      "key": 0
+    },
+    {
+      "source": "position_screw_leg_4",
+      "target": "wait_position_screw_leg_4_fasten_screw_leg_4",
+      "key": 0
+    },
+    {
+      "source": "position_screw_base_11",
+      "target": "wait_position_screw_base_11_fasten_screw_base_11",
+      "key": 0
+    },
+    {
+      "source": "position_screw_base_12",
+      "target": "wait_position_screw_base_12_fasten_screw_base_12",
+      "key": 0
+    },
+    {
+      "source": "position_screw_base_21",
+      "target": "wait_position_screw_base_21_fasten_screw_base_21",
+      "key": 0
+    },
+    {
+      "source": "position_screw_base_22",
+      "target": "wait_position_screw_base_22_fasten_screw_base_22",
+      "key": 0
+    },
+    {
+      "source": "position_screw_base_31",
+      "target": "wait_position_screw_base_31_fasten_screw_base_31",
+      "key": 0
+    },
+    {
+      "source": "position_screw_base_32",
+      "target": "wait_position_screw_base_32_fasten_screw_base_32",
+      "key": 0
+    },
+    {
+      "source": "position_screw_base_41",
+      "target": "wait_position_screw_base_41_fasten_screw_base_41",
+      "key": 0
+    },
+    {
+      "source": "position_screw_base_42",
+      "target": "wait_position_screw_base_42_fasten_screw_base_42",
+      "key": 0
+    },
+    {
+      "source": "position_screw_base_leg_11",
+      "target": "wait_position_screw_base_leg_11_fasten_screw_base_leg_11",
+      "key": 0
+    },
+    {
+      "source": "position_screw_base_leg_12",
+      "target": "wait_position_screw_base_leg_12_fasten_screw_base_leg_12",
+      "key": 0
+    },
+    {
+      "source": "position_screw_base_leg_21",
+      "target": "wait_position_screw_base_leg_21_fasten_screw_base_leg_21",
+      "key": 0
+    },
+    {
+      "source": "position_screw_base_leg_22",
+      "target": "wait_position_screw_base_leg_22_fasten_screw_base_leg_22",
+      "key": 0
+    },
+    {
+      "source": "position_screw_base_leg_31",
+      "target": "wait_position_screw_base_leg_31_fasten_screw_base_leg_31",
+      "key": 0
+    },
+    {
+      "source": "position_screw_base_leg_32",
+      "target": "wait_position_screw_base_leg_32_fasten_screw_base_leg_32",
+      "key": 0
+    },
+    {
+      "source": "position_screw_base_leg_41",
+      "target": "wait_position_screw_base_leg_41_fasten_screw_base_leg_41",
+      "key": 0
+    },
+    {
+      "source": "position_screw_base_leg_42",
+      "target": "wait_position_screw_base_leg_42_fasten_screw_base_leg_42",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_leg_1",
+      "target": "wait_fasten_screw_leg_1_place_leg_1",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_leg_2",
+      "target": "wait_fasten_screw_leg_2_place_leg_2",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_leg_3",
+      "target": "wait_fasten_screw_leg_3_place_leg_3",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_leg_4",
+      "target": "wait_fasten_screw_leg_4_place_leg_4",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_11",
+      "target": "position_screw_base_12",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_11",
+      "target": "wait_fasten_screw_base_11_place_base_build_1",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_12",
+      "target": "place_base_build_1",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_12",
+      "target": "wait_fasten_screw_base_12_position_screw_base_11",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_21",
+      "target": "position_screw_base_22",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_21",
+      "target": "wait_fasten_screw_base_21_place_base_build_2",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_22",
+      "target": "place_base_build_2",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_22",
+      "target": "wait_fasten_screw_base_22_position_screw_base_21",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_31",
+      "target": "position_screw_base_32",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_31",
+      "target": "wait_fasten_screw_base_31_place_base_build_3",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_32",
+      "target": "place_base_build_3",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_32",
+      "target": "wait_fasten_screw_base_32_position_screw_base_31",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_41",
+      "target": "place_base_build_4",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_41",
+      "target": "wait_fasten_screw_base_41_position_screw_base_42",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_42",
+      "target": "position_screw_base_41",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_42",
+      "target": "wait_fasten_screw_base_42_place_base_build_4",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_leg_11",
+      "target": "position_screw_base_leg_12",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_leg_11",
+      "target": "wait_fasten_screw_base_leg_11_place_base_assemble_1",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_leg_12",
+      "target": "place_base_assemble_1",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_leg_12",
+      "target": "wait_fasten_screw_base_leg_12_position_screw_base_leg_11",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_leg_21",
+      "target": "position_screw_base_leg_22",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_leg_21",
+      "target": "wait_fasten_screw_base_leg_21_place_base_assemble_2",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_leg_22",
+      "target": "place_base_assemble_2",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_leg_22",
+      "target": "wait_fasten_screw_base_leg_22_position_screw_base_leg_21",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_leg_31",
+      "target": "place_base_assemble_3",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_leg_31",
+      "target": "wait_fasten_screw_base_leg_31_position_screw_base_leg_32",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_leg_32",
+      "target": "position_screw_base_leg_31",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_leg_32",
+      "target": "wait_fasten_screw_base_leg_32_place_base_assemble_3",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_leg_41",
+      "target": "place_base_assemble_4",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_leg_41",
+      "target": "wait_fasten_screw_base_leg_41_position_screw_base_leg_42",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_leg_42",
+      "target": "position_screw_base_leg_41",
+      "key": 0
+    },
+    {
+      "source": "fasten_screw_base_leg_42",
+      "target": "wait_fasten_screw_base_leg_42_place_base_assemble_4",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_base_leg_12_fasten_screw_base_leg_12",
+      "target": "fasten_screw_base_leg_12",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_base_leg_12_position_screw_base_leg_11",
+      "target": "position_screw_base_leg_11",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_base_leg_11_fasten_screw_base_leg_11",
+      "target": "fasten_screw_base_leg_11",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_base_leg_11_place_base_assemble_1",
+      "target": "place_base_assemble_1",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_base_leg_22_fasten_screw_base_leg_22",
+      "target": "fasten_screw_base_leg_22",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_base_leg_22_position_screw_base_leg_21",
+      "target": "position_screw_base_leg_21",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_base_leg_21_fasten_screw_base_leg_21",
+      "target": "fasten_screw_base_leg_21",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_base_leg_21_place_base_assemble_2",
+      "target": "place_base_assemble_2",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_base_leg_31_fasten_screw_base_leg_31",
+      "target": "fasten_screw_base_leg_31",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_base_leg_31_position_screw_base_leg_32",
+      "target": "position_screw_base_leg_32",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_base_leg_32_fasten_screw_base_leg_32",
+      "target": "fasten_screw_base_leg_32",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_base_leg_32_place_base_assemble_3",
+      "target": "place_base_assemble_3",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_base_leg_41_fasten_screw_base_leg_41",
+      "target": "fasten_screw_base_leg_41",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_base_leg_41_position_screw_base_leg_42",
+      "target": "position_screw_base_leg_42",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_base_leg_42_fasten_screw_base_leg_42",
+      "target": "fasten_screw_base_leg_42",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_base_leg_42_place_base_assemble_4",
+      "target": "place_base_assemble_4",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_leg_1_fasten_screw_leg_1",
+      "target": "fasten_screw_leg_1",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_leg_1_place_leg_1",
+      "target": "place_leg_1",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_leg_2_fasten_screw_leg_2",
+      "target": "fasten_screw_leg_2",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_leg_2_place_leg_2",
+      "target": "place_leg_2",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_leg_3_fasten_screw_leg_3",
+      "target": "fasten_screw_leg_3",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_leg_3_place_leg_3",
+      "target": "place_leg_3",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_leg_4_fasten_screw_leg_4",
+      "target": "fasten_screw_leg_4",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_leg_4_place_leg_4",
+      "target": "place_leg_4",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_base_12_fasten_screw_base_12",
+      "target": "fasten_screw_base_12",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_base_12_position_screw_base_11",
+      "target": "position_screw_base_11",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_base_11_fasten_screw_base_11",
+      "target": "fasten_screw_base_11",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_base_11_place_base_build_1",
+      "target": "place_base_build_1",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_base_22_fasten_screw_base_22",
+      "target": "fasten_screw_base_22",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_base_22_position_screw_base_21",
+      "target": "position_screw_base_21",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_base_21_fasten_screw_base_21",
+      "target": "fasten_screw_base_21",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_base_21_place_base_build_2",
+      "target": "place_base_build_2",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_base_32_fasten_screw_base_32",
+      "target": "fasten_screw_base_32",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_base_32_position_screw_base_31",
+      "target": "position_screw_base_31",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_base_31_fasten_screw_base_31",
+      "target": "fasten_screw_base_31",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_base_31_place_base_build_3",
+      "target": "place_base_build_3",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_base_41_fasten_screw_base_41",
+      "target": "fasten_screw_base_41",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_base_41_position_screw_base_42",
+      "target": "position_screw_base_42",
+      "key": 0
+    },
+    {
+      "source": "wait_position_screw_base_42_fasten_screw_base_42",
+      "target": "fasten_screw_base_42",
+      "key": 0
+    },
+    {
+      "source": "wait_fasten_screw_base_42_place_base_build_4",
+      "target": "place_base_build_4",
+      "key": 0
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "type": "task",
+      "state": "working",
+      "operation": "build",
+      "object": "table",
+      "sequence": "parallel",
+      "id": "build_table"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "bring",
+      "object": "screw",
+      "sequence": "sequential",
+      "id": "bring_screw_pack"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "bring",
+      "object": "screwdriver",
+      "sequence": "sequential",
+      "id": "bring_screwdriver"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "bring",
+      "object": "plywood",
+      "sequence": "sequential",
+      "id": "bring_plywood"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "build",
+      "object": "base",
+      "sequence": "parallel",
+      "id": "build_base"
+    },
+    {
+      "type": "subtask",
+      "state": "working",
+      "operation": "assemble",
+      "object": "base, legs",
+      "sequence": "parallel",
+      "id": "assemble_legs_base"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "bring",
+      "object": "dowel",
+      "sequence": "sequential",
+      "id": "bring_dowel_1"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "bring",
+      "object": "dowel",
+      "sequence": "sequential",
+      "id": "bring_dowel_2"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "bring",
+      "object": "dowel",
+      "sequence": "sequential",
+      "id": "bring_dowel_3"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "bring",
+      "object": "dowel",
+      "sequence": "sequential",
+      "id": "bring_dowel_4"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "bring",
+      "object": "bracket_T",
+      "sequence": "sequential",
+      "id": "bring_bracket_T_1"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "bring",
+      "object": "bracket_T",
+      "sequence": "sequential",
+      "id": "bring_bracket_T_2"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "bring",
+      "object": "bracket_T",
+      "sequence": "sequential",
+      "id": "bring_bracket_T_3"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "bring",
+      "object": "bracket_T",
+      "sequence": "sequential",
+      "id": "bring_bracket_T_4"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "bring",
+      "object": "bracket_F",
+      "sequence": "sequential",
+      "id": "bring_bracket_F_1"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "bring",
+      "object": "bracket_F",
+      "sequence": "sequential",
+      "id": "bring_bracket_F_2"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "bring",
+      "object": "bracket_F",
+      "sequence": "sequential",
+      "id": "bring_bracket_F_3"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "bring",
+      "object": "bracket_F",
+      "sequence": "sequential",
+      "id": "bring_bracket_F_4"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "build",
+      "object": "leg",
+      "sequence": "sequential",
+      "id": "build_leg_1"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "build",
+      "object": "leg",
+      "sequence": "sequential",
+      "id": "build_leg_2"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "build",
+      "object": "leg",
+      "sequence": "sequential",
+      "id": "build_leg_3"
+    },
+    {
+      "type": "subtask",
+      "state": "done",
+      "operation": "build",
+      "object": "leg",
+      "sequence": "sequential",
+      "id": "build_leg_4"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_screw"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "screwdriver",
+      "time_robot": "3",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_screwdriver"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "dowel",
+      "time_robot": "3",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_dowel_1"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "dowel",
+      "time_robot": "3",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_dowel_2"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "dowel",
+      "time_robot": "3",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_dowel_3"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "dowel",
+      "time_robot": "3",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_dowel_4"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "plywood",
+      "time_robot": "3",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_plywood"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "plywood",
+      "time_robot": "3",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_plywood_base"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "bracket_F",
+      "time_robot": "3",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_bracket_F_1"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "bracket_F",
+      "time_robot": "3",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_bracket_F_1_leg"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "bracket_F",
+      "time_robot": "3",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_bracket_F_2"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "bracket_F",
+      "time_robot": "3",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_bracket_F_2_leg"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "bracket_F",
+      "time_robot": "3",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_bracket_F_3"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "bracket_F",
+      "time_robot": "3",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_bracket_F_3_leg"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "bracket_F",
+      "time_robot": "3",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_bracket_F_4"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "bracket_F",
+      "time_robot": "3",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_bracket_F_4_leg"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "bracket_T",
+      "time_robot": "3",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_bracket_T_1"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "bracket_T",
+      "time_robot": "3",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_bracket_T_2"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "bracket_T",
+      "time_robot": "3",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_bracket_T_3"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "bracket_T",
+      "time_robot": "3",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_bracket_T_4"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "base",
+      "time_robot": "3",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "pick_base"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "screw",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_screw"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "screwdriver",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_screwdriver"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "dowel",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_dowel_1"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "dowel",
+      "time_robot": "2",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_dowel_2"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "dowel",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_dowel_3"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "dowel",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_dowel_4"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "plywood",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_plywood"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "bracket_F",
+      "time_robot": "2",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_bracket_F_1"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "bracket_F",
+      "time_robot": "2",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_bracket_F_2"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "bracket_F",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_bracket_F_3"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "bracket_F",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_bracket_F_4"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "bracket_T",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_bracket_T_1"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "bracket_T",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_bracket_T_2"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "bracket_T",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_bracket_T_3"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "bracket_T",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_bracket_T_4"
+    },
+    {
+      "type": "operation",
+      "state": "working",
+      "operation": "place",
+      "object": "base",
+      "time_robot": "2",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_base_assemble_1"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "base",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_base_assemble_2"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "base",
+      "time_robot": "2",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_base_assemble_3"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "base",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_base_assemble_4"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "leg",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_leg_1"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "leg",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_leg_2"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "leg",
+      "time_robot": "2",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_leg_3"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "leg",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_leg_4"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "snap",
+      "object": "dowel",
+      "time_robot": "2",
+      "time_operator": 4,
+      "op_error_rate": 0.2,
+      "actor": "robot",
+      "time": 3,
+      "id": "snap_dowel_1"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "snap",
+      "object": "dowel",
+      "time_robot": "2",
+      "time_operator": 6,
+      "op_error_rate": 0.2,
+      "actor": "robot",
+      "time": 3,
+      "id": "snap_dowel_2"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "snap",
+      "object": "dowel",
+      "time_robot": "2",
+      "time_operator": 6,
+      "op_error_rate": 0.2,
+      "actor": "robot",
+      "time": 3,
+      "id": "snap_dowel_3"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "snap",
+      "object": "dowel",
+      "time_robot": "2",
+      "time_operator": 5,
+      "op_error_rate": 0.2,
+      "actor": "robot",
+      "time": 3,
+      "id": "snap_dowel_4"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "snap",
+      "object": "bracket_T",
+      "time_robot": "2",
+      "time_operator": 5,
+      "op_error_rate": 0.2,
+      "actor": "robot",
+      "time": 3,
+      "id": "snap_bracket_base_1"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "snap",
+      "object": "bracket_T",
+      "time_robot": "2",
+      "time_operator": 5,
+      "op_error_rate": 0.2,
+      "actor": "robot",
+      "time": 3,
+      "id": "snap_bracket_base_2"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "snap",
+      "object": "bracket_T",
+      "time_robot": "2",
+      "time_operator": 5,
+      "op_error_rate": 0.2,
+      "actor": "robot",
+      "time": 3,
+      "id": "snap_bracket_base_3"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "snap",
+      "object": "bracket_T",
+      "time_robot": "2",
+      "time_operator": 4,
+      "op_error_rate": 0.2,
+      "actor": "robot",
+      "time": 3,
+      "id": "snap_bracket_base_4"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "base",
+      "time_robot": "2",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_base_build_1"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "base",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_base_build_2"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "base",
+      "time_robot": "2",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_base_build_3"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "base",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 3,
+      "id": "place_base_build_4"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "snap",
+      "object": "leg",
+      "time_robot": "2",
+      "time_operator": 5,
+      "op_error_rate": 0.2,
+      "actor": "robot",
+      "time": 3,
+      "id": "snap_leg_1"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "snap",
+      "object": "leg",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.2,
+      "actor": "robot",
+      "time": 3,
+      "id": "snap_leg_2"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "snap",
+      "object": "leg",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.2,
+      "actor": "robot",
+      "time": 3,
+      "id": "snap_leg_3"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "snap",
+      "object": "leg",
+      "time_robot": "2",
+      "time_operator": 3,
+      "op_error_rate": 0.2,
+      "actor": "robot",
+      "time": 3,
+      "id": "snap_leg_4"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 5,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_leg_1"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 4,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_leg_2"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 6,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_leg_3"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 6,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_leg_4"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 6,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_base_11"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 5,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_base_12"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 6,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_base_21"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 4,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_base_22"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 3,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_base_31"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 6,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_base_32"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 4,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_base_41"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 5,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_base_42"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 5,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_base_leg_11"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 4,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_base_leg_12"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 6,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_base_leg_21"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 3,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_base_leg_22"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 5,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_base_leg_31"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 4,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_base_leg_32"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 4,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_base_leg_41"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "time_operator": 3,
+      "op_error_rate": 0.15,
+      "actor": "robot",
+      "time": 3,
+      "id": "position_screw_base_leg_42"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 8,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "id": "fasten_screw_leg_1"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 9,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "id": "fasten_screw_leg_2"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 9,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "id": "fasten_screw_leg_3"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 7,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "id": "fasten_screw_leg_4"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 7,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "id": "fasten_screw_base_11"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 7,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "id": "fasten_screw_base_12"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 9,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "id": "fasten_screw_base_21"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 8,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "error": 2,
+      "id": "fasten_screw_base_22"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 9,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "id": "fasten_screw_base_31"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 7,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "error": 1,
+      "id": "fasten_screw_base_32"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 7,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "id": "fasten_screw_base_41"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 9,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "id": "fasten_screw_base_42"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 8,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "id": "fasten_screw_base_leg_11"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 9,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "id": "fasten_screw_base_leg_12"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 7,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "error": 1,
+      "id": "fasten_screw_base_leg_21"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 7,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "id": "fasten_screw_base_leg_22"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 7,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "id": "fasten_screw_base_leg_31"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 9,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "id": "fasten_screw_base_leg_32"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 9,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "id": "fasten_screw_base_leg_41"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "time_operator": 7,
+      "op_error_rate": 0.2,
+      "actor": "operator",
+      "time": 3,
+      "id": "fasten_screw_base_leg_42"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_base_leg_12_fasten_screw_base_leg_12"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_base_leg_12_position_screw_base_leg_11"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_base_leg_11_fasten_screw_base_leg_11"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_base_leg_11_place_base_assemble_1"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_base_leg_22_fasten_screw_base_leg_22"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_base_leg_22_position_screw_base_leg_21"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_base_leg_21_fasten_screw_base_leg_21"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_base_leg_21_place_base_assemble_2"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_base_leg_31_fasten_screw_base_leg_31"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_base_leg_31_position_screw_base_leg_32"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_base_leg_32_fasten_screw_base_leg_32"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_base_leg_32_place_base_assemble_3"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_base_leg_41_fasten_screw_base_leg_41"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_base_leg_41_position_screw_base_leg_42"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_base_leg_42_fasten_screw_base_leg_42"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_base_leg_42_place_base_assemble_4"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_leg_1_fasten_screw_leg_1"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_leg_1_place_leg_1"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_leg_2_fasten_screw_leg_2"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_leg_2_place_leg_2"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_leg_3_fasten_screw_leg_3"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_leg_3_place_leg_3"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_leg_4_fasten_screw_leg_4"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_leg_4_place_leg_4"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_base_12_fasten_screw_base_12"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_base_12_position_screw_base_11"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_base_11_fasten_screw_base_11"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_base_11_place_base_build_1"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_base_22_fasten_screw_base_22"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_base_22_position_screw_base_21"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_base_21_fasten_screw_base_21"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_base_21_place_base_build_2"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_base_32_fasten_screw_base_32"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_base_32_position_screw_base_31"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_base_31_fasten_screw_base_31"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_base_31_place_base_build_3"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_base_41_fasten_screw_base_41"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_base_41_position_screw_base_42"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_position_screw_base_42_fasten_screw_base_42"
+    },
+    {
+      "type": "wait",
+      "time": 1,
+      "state": "done",
+      "id": "wait_fasten_screw_base_42_place_base_build_4"
+    }
+  ]
+}

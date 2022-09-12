@@ -1,0 +1,207 @@
+{
+  "directed": true,
+  "graph": {
+    "name": "Table"
+  },
+  "links": [
+    {
+      "source": "build_roller",
+      "target": "bring_R1"
+    },
+    {
+      "source": "bring_R1",
+      "target": "pick_R1"
+    },
+    {
+      "source": "bring_R2",
+      "target": "pick_R2"
+    },
+    {
+      "source": "bring_D1",
+      "target": "pick_D1"
+    },
+    {
+      "source": "bring_D2",
+      "target": "pick_D2"
+    },
+    {
+      "source": "pick_R1",
+      "target": "place_R1"
+    },
+    {
+      "source": "pick_R2",
+      "target": "place_R2"
+    },
+    {
+      "source": "pick_D1",
+      "target": "place_D1"
+    },
+    {
+      "source": "pick_D2",
+      "target": "place_D2"
+    },
+    {
+      "source": "place_R1",
+      "target": "bring_R2"
+    },
+    {
+      "source": "place_R1",
+      "target": "bring_D1"
+    },
+    {
+      "source": "place_R2",
+      "target": "bring_D2"
+    },
+    {
+      "source": "place_R2",
+      "target": "bring_D1"
+    },
+    {
+      "source": "place_D1",
+      "target": "bring_D2"
+    },
+    {
+      "source": "place_D1",
+      "target": "bring_R2"
+    }
+  ],
+  "multigraph": false,
+  "nodes": [
+    {
+      "type": "task",
+      "state": "working",
+      "operation": "build",
+      "object": "roller",
+      "sequence": "parallel",
+      "id": "build_roller"
+    },
+    {
+      "type": "subtask",
+      "state": "working",
+      "operation": "bring",
+      "object": "roller1",
+      "sequence": "sequential",
+      "id": "bring_R1"
+    },
+    {
+      "type": "subtask",
+      "state": "working",
+      "operation": "bring",
+      "object": "roller2",
+      "sequence": "sequential",
+      "id": "bring_R2"
+    },
+    {
+      "type": "subtask",
+      "state": "working",
+      "operation": "bring",
+      "object": "disc1",
+      "sequence": "sequential",
+      "id": "bring_D1"
+    },
+    {
+      "type": "subtask",
+      "state": "working",
+      "operation": "bring",
+      "object": "disc2",
+      "sequence": "sequential",
+      "id": "bring_D2"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "roller1",
+      "time_robot": "3",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 0.0,
+      "id": "pick_R1"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "roller2",
+      "time_robot": "3",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 0.0,
+      "id": "pick_R2"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "disc1",
+      "time_robot": "3",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 0.0,
+      "id": "pick_D1"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "pick",
+      "object": "disc2",
+      "time_robot": "3",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 0.0,
+      "id": "pick_D2"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "roller1",
+      "time_robot": "3",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 0.0,
+      "id": "place_R1"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "roller2",
+      "time_robot": "3",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 0.0,
+      "id": "place_R2"
+    },
+    {
+      "type": "operation",
+      "state": "done",
+      "operation": "place",
+      "object": "disc1",
+      "time_robot": "3",
+      "time_operator": 3,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 0.0,
+      "id": "place_D1"
+    },
+    {
+      "type": "operation",
+      "state": "working",
+      "operation": "place",
+      "object": "disc2",
+      "time_robot": "3",
+      "time_operator": 2,
+      "op_error_rate": 0.07,
+      "actor": "robot",
+      "time": 0.0,
+      "id": "place_D2"
+    }
+  ]
+}

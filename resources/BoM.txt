@@ -1,0 +1,5 @@
+plywood 1
+dowel 4
+bracket_T 4
+bracket_F 4
+screw 16

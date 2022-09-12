@@ -1,0 +1,350 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "name": "Table"
+  },
+  "nodes": [
+    {
+      "state": "todo",
+      "id": "build_table"
+    },
+    {
+      "state": "todo",
+      "id": "build_base",
+      "subtask": "build",
+      "object": "base"
+    },
+    {
+      "state": "todo",
+      "operation": "pick",
+      "object": "plywood",
+      "time_robot": "3",
+      "id": "pick_plywood_base"
+    },
+    {
+      "state": "todo",
+      "operation": "snap",
+      "object": "bracket_T",
+      "time_robot": "2",
+      "id": "snap_bracket_base_1"      
+    },
+    {
+      "state": "todo",
+      "operation": "snap",
+      "object": "bracket_T",
+      "time_robot": "2",
+      "id": "snap_bracket_base_2"      
+    },
+    {
+      "state": "todo",
+      "operation": "snap",
+      "object": "bracket_T",
+      "time_robot": "2",
+      "id": "snap_bracket_base_3"      
+    },
+    {
+      "state": "todo",
+      "operation": "snap",
+      "object": "bracket_T",
+      "time_robot": "2",
+      "id": "snap_bracket_base_4"      
+    },
+    {
+      "state": "todo",
+      "operation": "place",
+      "object": "base",
+      "time_robot": "2",
+      "id": "place_base_build_1"      
+    },
+    {
+      "state": "todo",
+      "operation": "place",
+      "object": "base",
+      "time_robot": "2",
+      "id": "place_base_build_2"      
+    },
+    {
+      "state": "todo",
+      "operation": "place",
+      "object": "base",
+      "time_robot": "2",
+      "id": "place_base_build_3"      
+    },
+    {
+      "state": "todo",
+      "operation": "place",
+      "object": "base",
+      "time_robot": "2",
+      "id": "place_base_build_4"      
+    },
+    {
+      "state": "todo",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "id": "position_screw_base_11"      
+    },
+    
+    {
+      "state": "todo",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "id": "position_screw_base_12"      
+    },
+    {
+      "state": "todo",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "id": "position_screw_base_21"      
+    },
+    
+    {
+      "state": "todo",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "id": "position_screw_base_22"      
+    },
+    {
+      "state": "todo",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "id": "position_screw_base_31"      
+    },
+    {
+      "state": "todo",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "id": "position_screw_base_32"      
+    },
+    {
+      "state": "todo",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "id": "position_screw_base_41"      
+    },
+    {
+      "state": "todo",
+      "operation": "position",
+      "object": "screw",
+      "time_robot": "3",
+      "id": "position_screw_base_42"      
+    },
+    {
+      "state": "todo",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "id": "fasten_screw_base_11"      
+    },
+    {
+      "state": "todo",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "id": "fasten_screw_base_12"      
+    },
+    {
+      "state": "todo",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "id": "fasten_screw_base_21"      
+    },
+    {
+      "state": "todo",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "id": "fasten_screw_base_22"      
+    },
+    {
+      "state": "todo",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "id": "fasten_screw_base_31"      
+    },
+    {
+      "state": "todo",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "id": "fasten_screw_base_32"      
+    },
+    {
+      "state": "todo",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "id": "fasten_screw_base_41"      
+    },
+    {
+      "state": "todo",
+      "operation": "fasten",
+      "object": "screw",
+      "time_robot": "6",
+      "id": "fasten_screw_base_42"      
+    }
+  ],
+  "links": [
+    {
+      "source": "build_table",
+      "target": "build_base"
+    },
+    {
+      "source": "build_base",
+      "target": "pick_plywood_base"
+    },
+    {
+      "source": "pick_plywood_base",
+      "target": "snap_bracket_base_1"
+    },
+    {
+      "source": "pick_plywood_base",
+      "target": "snap_bracket_base_2"
+    },
+    {
+      "source": "pick_plywood_base",
+      "target": "snap_bracket_base_3"
+    },
+    {
+      "source": "pick_plywood_base",
+      "target": "snap_bracket_base_4"
+    },
+    {
+      "source": "snap_bracket_base_1",
+      "target": "position_screw_base_11"
+    },
+    {
+      "source": "position_screw_base_11",
+      "target": "fasten_screw_base_11"
+    },
+    {
+      "source": "fasten_screw_base_11",
+      "target": "position_screw_base_12"
+    },
+    {
+      "source": "fasten_screw_base_11",
+      "target": "place_base_build_1"
+    },
+    {
+      "source": "snap_bracket_base_1",
+      "target": "position_screw_base_12"
+    },
+    {
+      "source": "position_screw_base_12",
+      "target": "fasten_screw_base_12"
+    },
+    {
+      "source": "fasten_screw_base_12",
+      "target": "position_screw_base_11"
+    },
+    {
+      "source": "fasten_screw_base_12",
+      "target": "place_base_build_1"
+    },
+    {
+      "source": "snap_bracket_base_2",
+      "target": "position_screw_base_21"
+    },
+    {
+      "source": "position_screw_base_21",
+      "target": "fasten_screw_base_21"
+    },
+    {
+      "source": "fasten_screw_base_21",
+      "target": "position_screw_base_22"
+    },
+    {
+      "source": "fasten_screw_base_21",
+      "target": "place_base_build_2"
+    },
+    {
+      "source": "snap_bracket_base_2",
+      "target": "position_screw_base_22"
+    },
+    {
+      "source": "position_screw_base_22",
+      "target": "fasten_screw_base_22"
+    },
+    {
+      "source": "fasten_screw_base_22",
+      "target": "position_screw_base_21"
+    },
+    {
+      "source": "fasten_screw_base_22",
+      "target": "place_base_build_2"
+    },
+    {
+      "source": "snap_bracket_base_3",
+      "target": "position_screw_base_31"
+    },
+    {
+      "source": "position_screw_base_31",
+      "target": "fasten_screw_base_31"
+    },
+    {
+      "source": "fasten_screw_base_31",
+      "target": "position_screw_base_32"
+    },
+    {
+      "source": "fasten_screw_base_31",
+      "target": "place_base_build_3"
+    },
+    {
+      "source": "snap_bracket_base_3",
+      "target": "position_screw_base_32"
+    },
+    {
+      "source": "position_screw_base_32",
+      "target": "fasten_screw_base_32"
+    },
+    {
+      "source": "fasten_screw_base_32",
+      "target": "position_screw_base_31"
+    },
+    {
+      "source": "fasten_screw_base_32",
+      "target": "place_base_build_3"
+    },
+    {
+      "source": "snap_bracket_base_4",
+      "target": "position_screw_base_41"
+    },
+    {
+      "source": "position_screw_base_41",
+      "target": "fasten_screw_base_41"
+    },
+    {
+      "source": "fasten_screw_base_41",
+      "target": "position_screw_base_42"
+    },
+    {
+      "source": "fasten_screw_base_41",
+      "target": "place_base_build_4"
+    },
+    {
+      "source": "snap_bracket_base_4",
+      "target": "position_screw_base_42"
+    },
+    {
+      "source": "position_screw_base_42",
+      "target": "fasten_screw_base_42"
+    },
+    {
+      "source": "fasten_screw_base_42",
+      "target": "position_screw_base_41"
+    },
+    {
+      "source": "fasten_screw_base_42",
+      "target": "place_base_build_4"
+    }
+  ]
+}

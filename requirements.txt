@@ -1,0 +1,11 @@
+networkx==2.6.2
+matplotlib==3.4.3
+argparse~=1.4.0
+graphviz
+pygraphviz
+
+paho-mqtt~=1.6.1
+open3d~=0.14.1
+pyaudio~=0.2.11
+pocketsphinx~=0.1.15
+roslibpy~=1.2.1
